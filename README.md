@@ -1,4 +1,5 @@
-#CODING EXERCISE - Angular2/SPA
+Angular2/SPA
+Code Available on Plunker:- https://plnkr.co/edit/vk4OOq?p=preview
 
 ## Table of Contents
 1. Evaluation guidelines
