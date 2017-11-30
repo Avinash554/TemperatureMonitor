@@ -17,7 +17,7 @@ Twitter Bootstrap CSS is present in the Plunk, use it or change it to your favor
 
 This exercise can be done in a few hours, but please don’t rush and take the time you need. Just remember that we are looking for quality of code over quantity. Refactor and clean your code.
 
-Don’t forget to have a last look at the Readme before submitting your code. If you have any questions, please send us an email at [AppsDevInterviewProcess@teksystems.com][AppsDev].
+Don’t forget to have a last look at the Readme before submitting your code.
 
 Using this plunker project as a seed, Build a Temperature Monitor Single Page Application (SPA) using Angular2.
 
