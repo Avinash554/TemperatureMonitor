@@ -1,0 +1,24 @@
+<div class="container-fluid text-center">
+<h4 class = "text-capitalize text-center">
+ {{title}}
+</h4>
+<h1 class ="text-center"><strong>Temperature Monitor!</strong></h1>
+<br>
+<form class = "text-center">
+  <label for="temperature">Add Temperature</label>
+  <br>
+  <input class="input-sm" name="temperature" id="temperature" [(ngModel)]="temperature" type="number" min="-100" max="100">
+  <button (click)="recordTemperature(temperature)" class="btn btn-dark"> Add </button>
+  <br/>
+  <br/>
+  <label> Used Storage Size</label>
+  <br>
+  <progress value={{USED_SIZE}} max="{{TOT_SIZE}}"></progress> {{USED_SIZE}} / {{TOT_SIZE}}
+</form>
+<hr class="primary">
+<section class = "text-center">
+  <button (click)="getCurrentMedian()" class="btn btn-primary btn-lg btn-block">Get Median Temperature</button>
+  <br>
+  <h2>Median Temperature: {{median}}</h2>
+</section>
+</div>
